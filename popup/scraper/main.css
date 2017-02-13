@@ -1,0 +1,88 @@
+/*
+	body ccs classes
+*/
+body{
+	width: 400px;
+	height: 400px;
+	background-color:#007b20;
+}
+
+body.event-added{
+	width: 400px;
+	height: 150px;
+	background-color:#007b20;
+}
+
+.mdl-grid-event-added{
+	justify-content: center
+}
+
+.no-left-right-margin{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.mdl-tabs__tab{
+	color:white;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+	color: #f3e6f7;
+}
+
+.mdl-tabs__panel{
+	color: white;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after{
+	background: #f3e6f7;
+}
+
+/*
+	mdl
+*/
+
+main.mdl-layout__content {
+	width: 100%;
+}
+
+.full_space_fields {
+	width: 100%;
+}
+
+.shared_space_fields_right{
+	width: 45%;
+	margin-left: 5%;
+}
+
+.shared_space_fields_left{
+	width: 45%;
+	margin-right: 5%;
+}
+
+div .mdl-textfield__label:after {
+	background: #f3e6f7;
+}
+
+label.mdl-textfield__label {
+	color: #f3e6f7;
+}
+
+div.mdl-textfield--floating-label{
+	color: #f3e6f7;
+}
+
+input.mdl-textfield__input{
+	border-bottom: 1px solid white;
+	color: #f3e6f7;
+}
+
+textarea.mdl-textfield__input{
+	border-bottom: 1px solid white;
+	color: #f3e6f7;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+	color: #f3e6f7;
+}
