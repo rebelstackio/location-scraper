@@ -3,7 +3,7 @@
 */
 body{
 	width: 400px;
-	height: 400px;
+	height: 150px;
 	background-color:#007b20;
 }
 
@@ -85,4 +85,17 @@ textarea.mdl-textfield__input{
 
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
 	color: #f3e6f7;
+}
+
+.mdl-spinner--single-color .mdl-spinner__layer-1{
+	border-color: white !important;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-2{
+	border-color: white !important;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-3{
+	border-color: white !important;
+}
+.mdl-spinner--single-color .mdl-spinner__layer-4{
+	border-color: white !important;
 }
